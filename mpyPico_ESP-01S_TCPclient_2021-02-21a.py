@@ -15,7 +15,7 @@ Pico send AT command to ESP-01S via UART,
 """
 #server port & ip hard-coded,
 #have to match with server side setting
-server_ip="192.168.0.243"
+server_ip="IP del servidor que se obtiene del comando ipconfig"
 server_port=9999
 
 print()
