@@ -71,7 +71,7 @@ sendCMD_waitResp('AT+CWMODE=1\r\n') #Set the Wi-Fi mode 1 = Station mode
 sendCMD_waitResp('AT+CWMODE?\r\n')  #Query the Wi-Fi mode again
 
 
-sendCMD_waitResp('AT+CWJAP="Fibertel WiFi195 2.4GHz Andres","0146659536"\r\n', timeout=5000) #Connect to AP
+sendCMD_waitResp('AT+CWJAP="Red Wifi","Clave Wifi"\r\n', timeout=5000) #Connect to AP
 sendCMD_waitResp('AT+CIFSR\r\n')    #Obtain the Local IP Address
 
 sendCMD_waitResp('AT+CIPSTART="TCP","' +
